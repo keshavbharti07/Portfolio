@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Bharti - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header-bg">
+        <div class="container">
+            <h1>Keshav Bharti</h1>
+            <p></p> <!-- Empty tag for typing effect -->
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i> Dark Mode
+            </button>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="profile.png" alt="Your Name" class="profile-img">
+                <div class="card-stack">
+                    <div class="card">
+                        <p>
+                            My passion lies in crafting innovative solutions and collaborating within dynamic development teams to build high-quality, user-centric applications. Eager to contribute to projects that push the boundaries of technology and enhance user experiences, I am committed to continuous learning and delivering impactful results. I thrive in environments that challenge me to think creatively and solve complex problems, leveraging my technical expertise and analytical mindset to drive success.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <p>
+                            With a strong foundation in C++, Python, SQL, and data structures & algorithms, I specialize in problem-solving and developing efficient, scalable solutions. My expertise extends to machine learning, web development, and database management, allowing me to work on diverse projects ranging from automation testing to AI-driven applications. I am proficient in utilizing modern frameworks and tools such as React, Node.js, and TensorFlow to build robust and scalable systems.
+                        </p>
+                    </div>
+                    <div class="card hidden-card">
+                        <p>
+                            Beyond technical skills, I am a strong team player and communicator, always eager to learn, mentor, and collaborate with others to drive innovation. My approach to problem-solving is logical yet creative, ensuring that I not only meet project requirements but also deliver impactful solutions that align with user needs. I am continuously exploring new technologies, participating in coding challenges, and engaging in real-world problem-solving to expand my knowledge and contribute meaningfully to the tech community.
+                        </p>
+                    </div>
+                </div>
+                <button class="scroll-button" id="read-more-button">▼ Read More ▼</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category web-tech">
+                    <h3>Web Tech</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category tools">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>MS Excel</li>
+                        <li>Power BI</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                <div class="skill-category programming">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category libraries">
+                    <h3>Libraries</h3>
+                    <ul>
+                        <li>React JS</li>
+                        <li>Pandas</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-list">
+                <div class="education-item web-tech">
+                    <h3>Bachelors in Computer Science Engineering</h3>
+                    <p>Chandigarh University (2021-2025)</p>
+                    <p>CGPA: 8</p>
+                </div>
+                <div class="education-item tools">
+                    <h3>Intermediate (CBSE)</h3>
+                    <p>Jesus & Mary Academy, Bihar (2019-2020)</p>
+                    <p>Percentage: 82.8%</p>
+                </div>
+                <div class="education-item programming">
+                    <h3>Matriculation (CBSE)</h3>
+                    <p>Jesus & Mary Academy, Bihar (2017-2018)</p>
+                    <p>Percentage: 83.4%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card web-tech">
+                    <h3>N-Queens Visualiser using Backtracking</h3>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <p>Developed a dynamic, web-based tool to visualize solutions for the N-Queens problem, supporting board sizes up to N=8.</p>
+                </div>
+                <div class="project-card tools">
+                    <h3>Diabetes Detection using SVM</h3>
+                    <p><strong>Technologies:</strong> Python, Scikit-learn, Pandas, NumPy, Google Colab</p>
+                    <p>Developed a predictive machine learning model to detect diabetes risk using SVM, achieving an accuracy of approximately 80%.</p>
+                </div>
+                <div class="project-card programming">
+                    <h3>Ultrasonic Vibrating Gloves using Arduino</h3>
+                    <p><strong>Technologies:</strong> Arduino, Ultrasonic Sensors, C++</p>
+                    <p>Designed ultrasonic vibrating gloves that detect obstacles within a 2-meter radius and provide feedback with vibration and sound.</p>
+                </div>
+                <div class="project-card libraries">
+                    <h3>Automation Testing of E-Commerce Website using Selenium</h3>
+                    <p><strong>Technologies:</strong> Selenium WebDriver, Maven, Page Object Model</p>
+                    <p>Automated over 150 test cases covering user authentication, product search, cart, checkout, and payment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <div class="achievements-list">
+                <div class="achievement-item web-tech">
+                    <h3>Mu Sigma</h3>
+                    <p>Offer for Decision Scientist Role with a package of over ₹30 Lakh for a 4-year duration.</p>
+                </div>
+                <div class="achievement-item tools">
+                    <h3>Decode DSA with C++</h3>
+                    <p>By Physics Wallah</p>
+                </div>
+                <div class="achievement-item programming">
+                    <h3>SQL for Data Science</h3>
+                    <p>By Great Learning</p>
+                </div>
+                <div class="achievement-item libraries">
+                    <h3>Crash Course on Python</h3>
+                    <p>Offered by Google through Coursera</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:keshav0709bharti@gmail.com">keshav0709bharti@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> +91 6204581313</p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/keshav-bharti-731b91204/">LinkedIn</a></p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/keshavbharti07">GitHub</a></p>
+                <p><i class="fas fa-code"></i> <a href="https://leetcode.com/u/keshav0709bharti/">LeetCode</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Keshav Bharti. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactivity -->
+    <script src="script.js"> </script>
+</body>
+</html>
