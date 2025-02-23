@@ -64,8 +64,8 @@ header h1 {
     margin: 0;
     font-size: 4em;
     animation: fadeIn 2s ease-in, colorChange 5s infinite alternate;
-    color: #ff3b2f;
-    text-shadow: 0 0 10px rgba(255, 59, 47, 0.8), 0 0 20px rgba(255, 59, 47, 0.8);
+    color: #06006f;
+    text-shadow: 0 0 10px rgba(252, 248, 0, 0.941), 0 0 20px rgba(255, 8, 8, 0);
 }
 
 header p {
@@ -592,19 +592,19 @@ footer p {
 
 @keyframes colorChange {
     0% {
-        color: #ff3b2f;
+        color: #000201d4;
     }
     25% {
-        color: #48c774;
+        color: #00230c;
     }
     50% {
-        color: #3273dc;
+        color: #02073f;
     }
     75% {
-        color: #ff3860;
+        color: #3a3c3cfe;
     }
     100% {
-        color: #ff3b2f;
+        color: #000003;
     }
 }
 
